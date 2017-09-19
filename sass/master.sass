@@ -1,5 +1,31 @@
+$color1: #6b939f
+$color2: #adcdd6
+$color3: #56ca4a
+$color4: #008080
 
-
-.navbar-raise
+.navbar-rise
   background: transparent
   padding: 50px 10px
+  .navbar-brand
+    color: $color3
+    font-size: 30px
+    font-weight: 700
+    .navbar-rise-span
+      color: $color4
+  .navbar-toggler
+    border: 2px solid $color1
+    .navbar-toggler
+      border: 2px solid $color2
+  .navbar-nav
+    margin-top: 6px
+    .nav-item
+      margin: 0 5px
+      text-transform: uppercase
+      a
+        color: $color2
+        font-weight: 700
+        &:hover
+          color: $color4
+
+.banner
+  border-top: 4px solid $color3
